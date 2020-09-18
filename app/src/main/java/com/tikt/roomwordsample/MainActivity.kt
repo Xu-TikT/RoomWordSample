@@ -40,6 +40,12 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
+        //lambda练习
+//        wordViewModel.allWords.observe(this, Observer {
+//            it?.let {
+//                words->adapter.setWords(words)
+//            }
+//        })
 
     }
 
